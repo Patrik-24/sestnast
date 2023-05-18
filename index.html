@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Film</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Zoznam filmov</h1>
+
+        <div>
+            <label for="nazov">Názov filmu:</label>
+            <input type="text" id="nazov">
+        </div>
+    
+        <div>
+            <label for="rok">Rok vydania:</label>
+            <input type="number" id="rok">
+        </div>
+    
+        <div>
+            <label for="herci">Herci:</label>
+            <input class="herc" type="text" id="herci">
+        </div>
+    
+        <button onclick="getInputValue()" id="vlozit">Vložiť</button>
+        <button onclick="odstranPosledny()" id="odstranit">Odstrániť posledný</button>
+        <button onclick="deleteAll()" id="vymazat">Vymazať celý zoznam</button>
+    
+        <h2>Aktuálny zoznam filmov</h2>
+        <pre id="zoznam"></pre>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

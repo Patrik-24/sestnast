@@ -1,0 +1,19 @@
+body {
+    background-image: url("reac.jpg");
+}
+.container {
+    width: 400px;
+    height: 400px;
+    background: rgb(222, 255, 244);
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    margin: 21rem 47rem;
+}
+.herc {
+    width: 13.5rem;
+}
+h1{
+    margin: 0 auto;
+}
